@@ -10,11 +10,11 @@ The methodology emphasizes the use of **open-source tools** and robust data vali
 
 All analyses were performed using open-source tools to ensure reproducibility and long-term sustainability.
 
-| Software / Library | Version | Purpose | Citation |
-| :--- | :--- | :--- | :--- |
-| **AccessMod** | 5.8 | Geospatial accessibility modeling and travel-time estimation. | |
-| **Python** | 3.13.5 | Scripting for data collection, cleaning, harmonization, and indicator computation. | |
-| **QGIS** | 3.40 (LTS) | Spatial visualization, mapping, and analysis validation. | |
+| Software / Library | Version | Purpose | 
+| :--- | :--- | :--- | 
+| **AccessMod** | 5.8 | Geospatial accessibility modeling and travel-time estimation. | 
+| **Python** | 3.13.5 | Scripting for data collection, cleaning, harmonization, and indicator computation. |
+| **QGIS** | 3.40 (LTS) | Spatial visualization, mapping, and analysis validation. |
 
 ## 3. Data Sources and Data Architecture
 
@@ -22,14 +22,14 @@ The analysis integrates demographic, administrative, and geospatial raster and v
 
 ### 3.1 Data Source Summary (Table 1 adapted)
 
-| Category | Type | Source | Granularity / Resolution | Details | Citation |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Demand (Gridded)** | Raster | WorldPop | ~ 100 m | Estimated population density per grid-cell, calibrated to official census totals. | |
-| **Demand (Census)** | Table | Census | Commune (ADM3) | Population groups (0–4 yrs, 15–59 yrs) used for calibration and indicator generation. | |
-| **Supply (Facilities)** | Point/Table | Administrative, Google Maps, HDX (OSM) | Point (Geocoded) | Locations of municipal, private, and informal childcare facilities. | |
-| **Road Network** | Shapefile | Humanitarian Data Exchange | Vector | Classified roads and streets used for transport and accessibility analysis. | |
-| **Land Cover** | Raster | ESA | ~ 10 m (resampled to 100m) | Classification (urban, water, forest) used to build the travel friction surface. | |
-| **DEM** | Raster | CGIAR CSI | ~ 90 m (resampled to 100m) | Elevation data for slope analysis, influencing travel speed adjustments. | |
+| Category | Type | Source | Granularity / Resolution | Details | 
+| :--- | :--- | :--- | :--- | :--- |
+| **Demand (Gridded)** | Raster | WorldPop | ~ 100 m | Estimated population density per grid-cell, calibrated to official census totals. |
+| **Demand (Census)** | Table | Census | Commune (ADM3) | Population groups (0–4 yrs, 15–59 yrs) used for calibration and indicator generation. |
+| **Supply (Facilities)** | Point/Table | Administrative, Google Maps, HDX (OSM) | Point (Geocoded) | Locations of municipal, private, and informal childcare facilities. |
+| **Road Network** | Shapefile | Humanitarian Data Exchange | Vector | Classified roads and streets used for transport and accessibility analysis. |
+| **Land Cover** | Raster | ESA | ~ 10 m (resampled to 100m) | Classification (urban, water, forest) used to build the travel friction surface. |
+| **DEM** | Raster | CGIAR CSI | ~ 90 m (resampled to 100m) | Elevation data for slope analysis, influencing travel speed adjustments. |
 
 ## 4. Data Processing and Validation Pipeline
 
@@ -86,6 +86,7 @@ The workflow is implemented using sequential, fully reproducible Python notebook
 ### 6.1 Data Structure
 
 The project uses a structured folder system for traceability and version control:
+https://drive.google.com/drive/folders/1k2YNm9KEwSHujgnW0OmsZE528kH9d2zd?usp=sharing
 
 ```
 ├── data/

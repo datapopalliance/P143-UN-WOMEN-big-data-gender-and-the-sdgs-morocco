@@ -6,12 +6,12 @@ This consolidated repository brings together four workstreams developed to suppo
 
 ## Repository Structure
 
-- **ACCES_MOD/**
-  - Jupyter notebooks for AccessMod-related workflows:
+- **Use_case_2_childcare_analysis/**
+  - Jupyter notebooks for childcare analysis workflows:
     - `1. AccessMod - Data Collection.ipynb`
     - `2. AccessMod - Data Processing.ipynb`
     - `3. Data Analysis - Indicators.ipynb`
-  - Focus: preparing inputs, processing outputs, and deriving indicators for accessibility analyses using AccessMod.
+  - Analytical workflow and data processing scripts used to assess childcare demand, supply, and spatial accessibility in Casablanca, Morocco.
 
 - **DIGITAL_GENDER/**
   - Digital gender divide analysis combining Meta (Facebook) audience data, official population statistics, and SDG indicators to compute Female-to-Male digital usage indices at regional level.
@@ -41,7 +41,7 @@ This consolidated repository brings together four workstreams developed to suppo
 
 - **Digital Gender Divide**: quantify and map gender differences in Facebook, internet, and mobile usage; provide regional indices aligned with SDG indicators (e.g., SDG 5.b.1, SDG 17.8.1).
 - **Road Access & Isolation**: compute isochrones and overlay with population to estimate isolated territories and population shares.
-- **Access to Services (AccessMod)**: prepare, process, and derive indicators from AccessMod workflows to support health/service accessibility assessments.
+- **Access to Services**: provide a transparent and replicable account of how demographic, administrative, and geospatial data were integrated to identify structural barriers to women’s employment associated with care deficits.
 - **Applied Use Case**: deliver curated indicators and cartographic outputs for direct consumption and decision support.
 
 ---
