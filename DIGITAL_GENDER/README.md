@@ -7,8 +7,10 @@ The analysis integrates **Meta (Facebook)** audience data, **official population
 
 ## 🧭 Repository Structure
 
-├── APP1.ipynb # Main notebook: data acquisition, harmonization, and visualization
+├── APP1.ipynb # Main notebook: data acquisition, harmonization, and visualization 
+
 ├── data Folder with all the data needed
+
 └── README.md # Project documentation 
 
 ---
