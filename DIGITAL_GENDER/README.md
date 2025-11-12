@@ -8,10 +8,7 @@ The analysis integrates **Meta (Facebook)** audience data, **official population
 ## 🧭 Repository Structure
 
 ├── APP1.ipynb # Main notebook: data acquisition, harmonization, and visualization
-├── data_raw/ # Raw input data (Facebook API outputs, HDX shapefiles, SDG tables)
-├── data_processed/ # Harmonized data (merged and cleaned DataFrames)
-├── figures/ # Choropleth maps and analytical visualizations
-├── environment.yml # Conda environment (Python 3.12, geopandas, matplotlib, etc.)
+├── data Folder with all the data needed
 └── README.md # Project documentation 
 
 ---
