@@ -1,0 +1,67 @@
+# -----------------------------
+# Python cache / build files
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+.env/
+.venv/
+venv/
+env/
+
+# -----------------------------
+# Environment and secrets
+# -----------------------------
+.env
+*.env
+.env.local
+secrets.json
+
+# -----------------------------
+# Jupyter
+# -----------------------------
+.ipynb_checkpoints/
+jupyter_cache/
+.jupyter/
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Build / distribution
+# -----------------------------
+build/
+dist/
+*.egg-info/
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# VSCode / IDEs
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+
+# If you want to track processed results but not raw:
+# data_raw/
+# data_interim/
+# data_processed/
+
+# -----------------------------
+# Misc
+# -----------------------------
+*.tmp
