@@ -43,8 +43,8 @@ Code implemented in Python 3.12
 Clone and go to repository
 
 ```
-$ git clone https://github.com/datapopalliance/P144-morocco-road-access.git
-$ cd P144-morocco-road-access
+$ git clone https://github.com/datapopalliance/P143-UN-WOMEN-big-data-gender-and-the-sdgs-morocco.git
+$ cd P143-UN-WOMEN-big-data-gender-and-the-sdgs-morocco\MOROCCO_ROAD_ACCESS
 ```
 
 Create, activate environment and Install dependancies
