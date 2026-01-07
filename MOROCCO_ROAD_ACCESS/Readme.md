@@ -44,7 +44,7 @@ Clone and go to repository
 
 ```
 $ git clone https://github.com/datapopalliance/P143-UN-WOMEN-big-data-gender-and-the-sdgs-morocco.git
-$ cd P143-UN-WOMEN-big-data-gender-and-the-sdgs-morocco\MOROCCO_ROAD_ACCESS
+$ cd P143-UN-WOMEN-big-data-gender-and-the-sdgs-morocco/MOROCCO_ROAD_ACCESS
 ```
 
 Create, activate environment and Install dependancies
